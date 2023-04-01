@@ -1,0 +1,83 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+
+    background: linear-gradient(145deg,rgb(9, 7, 38),rgb(8, 8, 40));
+    width:100%;
+    height: 100vh;
+
+}
+
+.box{
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 15px rgba(110, 110, 110, 0.6),-4px -4px 15px rgba(110, 110, 110, 0.6);
+    border-radius: 10px;
+    width:350px;
+    padding: 20px 0px;
+    align-items: center;
+}
+.inputBox{
+    text-align: right;
+    margin: 10px;
+
+}
+.inputBox input{
+   color: aliceblue;
+    width:95%;
+    background: none;
+    margin-right: 10px;
+    height: 50px;
+    text-align: right;
+    font-size: 20px;
+    outline: 0;
+    box-shadow: 4px 4px 16px rgba(110, 110, 110, 0.3),-4px -4px 15px rgba(110, 110, 110, 0.4);
+
+}
+button{
+    cursor:pointer;
+    border:0;
+    outline: 0;
+    border-radius: 50px;
+    box-shadow: 2px 2px 15px rgba(110, 110, 110, 0.4),-2px -2px 15px rgba(110, 110, 110, 0.4);
+   background: none;
+   color: aliceblue;
+    width:60px;
+    height: 60px;
+    margin: 8px;
+    font-size:20px;
+}
+.btns{
+    align-items: center;
+    text-align: center;
+}
+.equal{
+    width:124px;
+}
+.equal{
+    background: rgb(236, 71, 6);
+}
+.operator{
+    color:cyan;
+}
+ @media(max-width:285px){
+    .box{
+        width:240px;
+    }
+    button{
+        width:40px;
+        height: 40px;
+        margin: 3px;
+    }
+    .equal{
+        width:90px;
+    }
+} 
